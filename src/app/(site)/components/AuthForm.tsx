@@ -188,13 +188,13 @@ const AuthForm = () => {
               <div className="w-full border-t border-slate-300" />
             </div>
             <div className="relative flex justify-center text-sm">
-              <span className="bg-white px-2 text-slate-500">
+              {/* <span className="bg-white border rounded-md px-2 text-slate-500">
                 Or continue with
-              </span>
+              </span> */}
             </div>
           </div>
 
-          <div className="mt-6 flex gap-2">
+          {/* <div className="mt-6 flex gap-2">
             <AuthSocialButton
               icon={BsGoogle}
               onClick={() => socialAction("google")}
@@ -221,8 +221,8 @@ const AuthForm = () => {
             onClick={toggleVariant}
             className="underline cursor-pointer  hover:text-stone-200"
           >
-            {variant === "LOGIN" ? "Create an account" : "Login"}
-          </div>
+            {variant === "LOGIN" ? "Create an account" : "Login"} */}
+          {/* </div> */}
         </div>
       </div>
     </div>
